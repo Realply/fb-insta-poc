@@ -1,0 +1,33 @@
+{
+  "name": "realply-fb-insta-poc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format:write": "npx prettier --write ."
+  },
+  "dependencies": {
+    "@types/node": "18.15.6",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "axios": "^1.6.7",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "lucide-react": "^0.354.0",
+    "next": "14.0.4",
+    "next-auth": "^4.24.7",
+    "passport-instagram": "^1.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-next-toast": "^2.0.1",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  }
+}
