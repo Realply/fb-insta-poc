@@ -1,6 +1,6 @@
 // pages/api/status.ts
 
-import { NextApiRequest, NextApiResponse } from 'next';
+import { NextApiRequest, NextApiResponse } from "next";
 
 type ResponseData = {
   message: string;
@@ -8,7 +8,7 @@ type ResponseData = {
 
 export default function handler(_req: NextApiRequest, res: NextApiResponse) {
   const responseData: ResponseData = {
-    message: 'API running...',
+    message: "API running...",
   };
 
   res.status(200).json(responseData);

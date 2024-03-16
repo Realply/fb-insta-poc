@@ -111,14 +111,14 @@ const dashboard = () => {
       try {
         // hard coded access token for Test User account
         const response = await axios.get(
-          `https://graph.instagram.com/me/media?fields=id,caption,media_url,timestamp,media_type,permalink&access_token=IGQWRPLWxGVFV0ZAzdDZAWtwdXdhc1JMaEh2NkFBUDFtZA2dzM1EyZAnNxWjdwa0E3NnZAtSnJ1NDY1ZAjNrT09kX3ZAiVXVoUmFlajJMVG5scGlHSXBwdjdDbjBCdF95ZADgweDZAfOTF1cFp4ZA2pkOEs1dWJDUTFiamVhWW8ZD`
+          `https://graph.instagram.com/me/media?fields=id,caption,media_url,timestamp,media_type,permalink&access_token=IGQWRPLWxGVFV0ZAzdDZAWtwdXdhc1JMaEh2NkFBUDFtZA2dzM1EyZAnNxWjdwa0E3NnZAtSnJ1NDY1ZAjNrT09kX3ZAiVXVoUmFlajJMVG5scGlHSXBwdjdDbjBCdF95ZADgweDZAfOTF1cFp4ZA2pkOEs1dWJDUTFiamVhWW8ZD`,
         );
         console.log("API response ==> ", response);
         setInstaPhotos(response.data?.data);
       } catch (error) {
         console.log(error);
         showToast.error(
-          "Sorry, couldn't retrieve data at this time. Please try again later."
+          "Sorry, couldn't retrieve data at this time. Please try again later.",
         );
       }
     };

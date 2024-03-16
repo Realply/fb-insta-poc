@@ -18,4 +18,3 @@ const authURL = `https://api.instagram.com/oauth/authorize?clientId=${process.en
 instagramProfile.authorization = authURL.toString();
 
 export default instagramProfile;
-

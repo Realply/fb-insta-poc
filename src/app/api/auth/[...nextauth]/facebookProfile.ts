@@ -17,4 +17,3 @@ const authURL = `https://www.facebook.com/v11.0/dialog/oauth?client_id=${process
 facebookProfile.authorization = authURL.toString();
 
 export default facebookProfile;
-

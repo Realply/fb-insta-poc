@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Privacy = () => {
-  return (
-    <div>privacy</div>
-  )
-}
+  return <div>privacy</div>;
+};
 
-export default Privacy
+export default Privacy;

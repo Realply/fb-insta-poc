@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 .gradient-custom {
-    background-image: linear-gradient(to right, #ff66ff, #ff6666);
-  }
-  
+  background-image: linear-gradient(to right, #ff66ff, #ff6666);
+}
